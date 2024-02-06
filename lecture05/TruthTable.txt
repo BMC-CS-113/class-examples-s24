@@ -1,0 +1,37 @@
+and (&&)
+
+x && y && z
+
+f/t
+
+x = "washed dishes"
+y = "cooked food"
+
+x y z|canEatDinner
+-|-|-|----|
+t|t|t
+f|t|f
+t|f|f
+f|f|f
+
+
+or (||)
+
+x = "put on his collar"
+y = "put on his harness"
+
+x y canWalkDog
+-|-|-----|
+t|t|t
+f|t|t
+t|f|t
+f|f|f
+
+
+!x
+x = true 
+!x = false
+
+x = false
+!x = true
+
